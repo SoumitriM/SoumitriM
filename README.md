@@ -65,11 +65,7 @@ processing, automated tests, CI/CD and production deployment.
 <sub>Newest first. Every stage added a layer to the stack instead of replacing one.</sub>
 
 <table>
-  <tr>
-    <td align="center" width="130"><img src="https://img.shields.io/badge/2026%20%E2%80%93%20today-2563EB?style=for-the-badge" alt="2026 – today"/><br/><sub>📍 now</sub></td>
-    <td align="center" width="270"><img src="assets/roadmap/2026-kubernetes.svg" width="250" alt="Animated stick figure working on a laptop: Kubernetes Incident Resolution Assistant"/></td>
-    <td><b>Kubernetes Incident Resolution Assistant</b><br/><sub>Personal project</sub><br/><br/>Built an AI assistant that investigates Kubernetes incidents, asks follow-up questions and recommends fixes from the official documentation and historical GitHub incidents.<br/><sub><b>Worked with:</b> Python · LangGraph · GraphRAG · Neo4j · FastAPI · React · Docker · Kubernetes</sub></td>
-  </tr>
+ 
   <tr>
     <td align="center" width="130"><img src="https://img.shields.io/badge/2024%20%E2%80%93%20today-2F6FE8?style=for-the-badge" alt="2024 – today"/></td>
     <td align="center" width="270"><img src="assets/roadmap/2024-fraunhofer.svg" width="250" alt="Animated stick figure working on a laptop: AI Engineer (Research Assistant)"/></td>
