@@ -116,19 +116,20 @@ processing, automated tests, CI/CD and production deployment.
 ### 🧠 How I build agents
 
 ```mermaid
-flowchart LR
-    Q([Question]) --> U[Understand<br/>structured output]
-    U --> R{Route}
-    R -->|search| W[Web & docs agents]
-    R -->|graph| G[GraphRAG<br/>Neo4j]
-    R -->|tools| T[Tool calls<br/>MCP]
-    W --> V[Validate<br/>evidence & schema]
-    G --> V
-    T --> V
-    V -->|confident| A([Grounded answer])
-    V -->|uncertain| H[Human in the loop]
-    H --> A
+flowchart TD
+    A(("🤖 Production<br/>AI agent"))
+    A --- L["⚡ Low latency<br/>deterministic code where a model isn't needed,<br/>fewer model calls, background bookkeeping"]
+    A --- S["🛡️ Secure & threat-proof<br/>input treated as data, injection tests,<br/>read-only tools, no secrets in prompts"]
+    A --- D["🔍 Debuggable<br/>tracing every step, structured logs,<br/>golden test sets"]
+    A --- O["🚀 Optimised<br/>measure first, fewer tokens,<br/>right model for each step"]
+    A --- C["📘 Documented<br/>architecture, configuration<br/>and evaluation docs"]
+    classDef core fill:#2563EB,stroke:#1E3A8A,color:#FFFFFF
+    classDef value fill:#EFF6FF,stroke:#93C5FD,color:#1E293B
+    class A core
+    class L,S,D,O,C value
 ```
+
+👉 See all of this in practice in my **[Kubernetes incident assistant](https://github.com/SoumitriM/troubleshooting-kubernetes-issues-agent)**.
 
 ### 📌 Featured work
 
