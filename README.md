@@ -37,25 +37,47 @@ class Soumitri(Agent):
     languages  = {"English": "C1", "German": "B1, improving"}
 ```
 
-### 🛤️ The path so far
+### 🛤️ My roadmap
 
-```mermaid
-flowchart LR
-    A["🎓 2017–2020<br/>B.Tech CS<br/>University of Calcutta"] --> B["🎨 2020–2023<br/>Frontend<br/>Cognizant"]
-    B --> C["⚛️ 2023<br/>Senior SE<br/>LTIMindtree"]
-    C --> D["🎓 2023–2026<br/>M.Sc. CS<br/>Paderborn University"]
-    D --> E["🔎 2024–today<br/>Research Assistant<br/>Paderborn University"]
-    E --> F["🤖 2024–today<br/>AI Engineer<br/>Fraunhofer IAO"]
-```
+<sub>Newest first. Every stage added a layer to the stack instead of replacing one.</sub>
 
-| When | Where | What I did | Stack I added |
-|---|---|---|---|
-| **2020 – 2023** | **Cognizant** · Software Engineer, Frontend | Production React apps for Nike: features, code reviews, API integration, testing and support. A high-volume inventory management UI with multi-step validation and SAP integration | <img src="https://skillicons.dev/icons?i=react,ts,js,materialui" alt="React, TypeScript, JavaScript, Material UI" height="32"/> |
-| **2023** | **LTIMindtree** · Senior Software Engineer | Migrated a legacy telecom customer portal to a component-based React/Redux architecture. About 80× faster rendering of a core flow and about 50% shorter load time | <img src="https://skillicons.dev/icons?i=react,redux,ts,js" alt="React, Redux, TypeScript, JavaScript" height="32"/> |
-| **2024 – today** | **Paderborn University** · Research Assistant, ML & Optimisation group | A university-wide knowledge graph of publications, real-time disinformation detection on Twitter and Bluesky, synthetic tweet datasets from multiple LLMs, and a DeepL glossary platform with CI/CD | <img src="https://skillicons.dev/icons?i=py,elasticsearch,nodejs,react,docker" alt="Python, Elasticsearch, Node.js, React, Docker" height="32"/> + LLMs, SPARQL/RDF, Hugging Face |
-| **2024 – 2025** | **Paderborn University & OPTANO** · GenUI | An open-source RAG assistant for an optimisation platform's docs, plus an AI Excel-automation module | <img src="https://skillicons.dev/icons?i=py,react" alt="Python, React" height="32"/> + RAG |
-| **2024 – today** | **Fraunhofer IAO** · AI Engineer | A supplier cybersecurity risk platform with multi-agent LangGraph workflows (about 60% less manual effort), and insider-threat signal extraction for AeroKI with human-in-the-loop review | <img src="https://skillicons.dev/icons?i=py,fastapi,react,ts,kubernetes,docker" alt="Python, FastAPI, React, TypeScript, Kubernetes, Docker" height="32"/> + LangGraph, MCP, Pydantic |
-| **2026 – today** | **Personal project** · Kubernetes incident assistant | An agent that troubleshoots Kubernetes incidents from the official docs and historical GitHub issues, with conversation memory | <img src="https://skillicons.dev/icons?i=py,fastapi,react,docker,kubernetes" alt="Python, FastAPI, React, Docker, Kubernetes" height="32"/> + LangGraph, GraphRAG, Neo4j |
+<table>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2026%20%E2%80%93%20today-2563EB?style=for-the-badge" alt="2026 – today"/><br/><sub>📍 now</sub></td>
+    <td align="center" width="270"><img src="assets/roadmap/2026-kubernetes.svg" width="250" alt="Animated stick figure working on a laptop: Kubernetes Incident Resolution Assistant"/></td>
+    <td><b>Kubernetes Incident Resolution Assistant</b><br/><sub>Personal project</sub><br/><br/>Built an AI assistant that investigates Kubernetes incidents, asks follow-up questions and recommends fixes from the official documentation and historical GitHub incidents.<br/><sub><b>Worked with:</b> Python · LangGraph · GraphRAG · Neo4j · FastAPI · React · Docker · Kubernetes</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2024%20%E2%80%93%20today-2F6FE8?style=for-the-badge" alt="2024 – today"/></td>
+    <td align="center" width="270"><img src="assets/roadmap/2024-fraunhofer.svg" width="250" alt="Animated stick figure working on a laptop: AI Engineer (Research Assistant)"/></td>
+    <td><b>AI Engineer (Research Assistant)</b><br/><sub>Fraunhofer IAO · Stuttgart / Remote</sub><br/><br/>Building a supplier cybersecurity risk platform with multi-agent LangGraph workflows, and a two-stage LLM system that extracts insider-threat risk signals for the government-funded AeroKI project, with human-in-the-loop review.<br/><sub><b>Worked with:</b> Python · LangGraph · FastAPI · Pydantic · MCP · multi-LLM (OpenRouter) · React · TypeScript · Kubernetes · Docker</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2024%20%E2%80%93%20today-3B82F6?style=for-the-badge" alt="2024 – today"/></td>
+    <td align="center" width="270"><img src="assets/roadmap/2024-paderborn-research.svg" width="250" alt="Animated stick figure working on a laptop: Research Assistant"/></td>
+    <td><b>Research Assistant</b><br/><sub>Machine Learning & Optimisation Group, Paderborn University</sub><br/><br/>Building a university-wide knowledge graph of academic publications and a real-time pipeline that detects disinformation campaigns on Twitter and Bluesky. Built and deployed a DeepL glossary platform, and the GenUI RAG assistant with OPTANO.<br/><sub><b>Worked with:</b> Python · LLMs (Gemini, Llama, OpenAI, DeepSeek, Qwen) · Elasticsearch · SPARQL / RDF · Hugging Face · scikit-learn · React · TypeScript · Node.js · Docker</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2023%20%E2%80%93%202026-60A5FA?style=for-the-badge" alt="2023 – 2026"/></td>
+    <td align="center" width="270"><img src="assets/roadmap/2023-msc.svg" width="250" alt="Animated stick figure working on a laptop: M.Sc. Computer Science"/></td>
+    <td><b>M.Sc. Computer Science</b><br/><sub>Paderborn University</sub><br/><br/>Master's thesis on <i>Leveraging AI for Supplier Security Risk Evaluation</i>, an agentic system for automated supplier risk assessment. Master's project: an AI assistant for an optimisation platform.<br/><sub><b>Worked with:</b> Agentic AI · RAG · LLM evaluation</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2023-64748B?style=for-the-badge" alt="2023"/></td>
+    <td align="center" width="270"><img src="assets/roadmap/2023-ltimindtree.svg" width="250" alt="Animated stick figure working on a laptop: Senior Software Engineer"/></td>
+    <td><b>Senior Software Engineer</b><br/><sub>LTIMindtree · Kolkata, India</sub><br/><br/>Modernised a legacy telecommunications customer portal by migrating its core modules to a component-based React and Redux architecture, with reusable typed components and REST integrations.<br/><sub><b>Worked with:</b> React · Redux · TypeScript · JavaScript · REST APIs</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2020%20%E2%80%93%202023-78869A?style=for-the-badge" alt="2020 – 2023"/></td>
+    <td align="center" width="270"><img src="assets/roadmap/2020-cognizant.svg" width="250" alt="Animated stick figure working on a laptop: Software Engineer – Frontend"/></td>
+    <td><b>Software Engineer – Frontend</b><br/><sub>Cognizant Technology Solutions · Kolkata, India</sub><br/><br/>Developed and maintained production React applications for Nike, from feature development and code reviews to testing and production support. Built an inventory management UI for large datasets with SAP integration.<br/><sub><b>Worked with:</b> React · TypeScript · JavaScript · Material UI</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/2017%20%E2%80%93%202020-94A3B8?style=for-the-badge" alt="2017 – 2020"/><br/><sub>🚀 where it started</sub></td>
+    <td align="center" width="270"><img src="assets/roadmap/2017-btech.svg" width="250" alt="Animated stick figure working on a laptop: B.Tech. Computer Science"/></td>
+    <td><b>B.Tech. Computer Science</b><br/><sub>University of Calcutta · Kolkata, India</sub><br/><br/>My foundations in computer science.</td>
+  </tr>
+</table>
 
 ### 🧰 Toolbox
 
