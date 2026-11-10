@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=190&section=header&text=Soumitri%20Mukherjee&fontSize=44&fontColor=FFFFFF&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20AI%20%26%20LLM%20Systems&descSize=18&descAlignY=58" alt="Soumitri Mukherjee, AI Engineer, Agentic AI and LLM Systems" width="100%"/>
-</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=640&lines=From+React+components...;...to+APIs%2C+data+and+knowledge+graphs...;...to+multi-agent+systems+in+production;One+engineer%2C+the+whole+stack" alt="From React components, to APIs, data and knowledge graphs, to multi-agent systems in production. One engineer, the whole stack."/>
