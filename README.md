@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=640&lines=I+build+multi-agent+systems+with+LangGraph;Tool+calling+%C2%B7+MCP+%C2%B7+RAG+%C2%B7+GraphRAG;Grounded+answers%2C+validated+outputs;Full-stack%3A+FastAPI+%2B+React+%2F+TypeScript" alt="I build multi-agent systems with LangGraph. Tool calling, MCP, RAG, GraphRAG. Grounded answers, validated outputs. Full-stack: FastAPI plus React and TypeScript."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=640&lines=From+React+components...;...to+APIs%2C+data+and+knowledge+graphs...;...to+multi-agent+systems+in+production;One+engineer%2C+the+whole+stack" alt="From React components, to APIs, data and knowledge graphs, to multi-agent systems in production. One engineer, the whole stack."/>
 </p>
 
 <p align="center">
@@ -15,15 +15,23 @@
 
 ---
 
-### `> whoami`
+### 🧭 From pixels to agents
+
+I started as a **frontend engineer**: production React and TypeScript apps for Nike at
+Cognizant, then a legacy telecom portal rebuilt in React and Redux at LTIMindtree. My
+master's in Germany pulled me into **Python, search and knowledge graphs**, and from there
+into **LLMs and agentic systems**, which I now build at Fraunhofer IAO.
+
+Each stage added a layer instead of replacing one. Today I can take a feature all the way
+from the **React component** through the **FastAPI service**, **graph and vector
+retrieval** and the **LangGraph agent and its evaluation** to the **Docker and Kubernetes
+deployment**. I'm comfortable wherever the problem happens to be in the stack.
 
 ```python
 class Soumitri(Agent):
     role       = "AI Engineer @ Fraunhofer IAO · Research Assistant @ Paderborn University"
     education  = "M.Sc. Computer Science, Paderborn University"
-    experience = "3 years building production React/TypeScript apps (Cognizant, LTIMindtree)"
-    builds     = ["multi-agent workflows", "RAG & GraphRAG", "MCP servers", "LLM evaluation"]
-    tools      = ["LangGraph", "FastAPI", "Pydantic", "React", "TypeScript", "Neo4j", "Kubernetes"]
+    layers     = ["frontend", "backend", "data & graphs", "LLM agents", "infrastructure"]
     principles = {
         "LLM output": "validated before anyone sees it",
         "scores and severity": "computed in code, not guessed by the model",
@@ -32,7 +40,38 @@ class Soumitri(Agent):
     languages  = {"English": "C1", "German": "B1, improving"}
 ```
 
-### How I build agents
+### 🛤️ The path so far
+
+```mermaid
+flowchart LR
+    A["🎓 2017–2020<br/>B.Tech CS<br/>University of Calcutta"] --> B["🎨 2020–2023<br/>Frontend<br/>Cognizant"]
+    B --> C["⚛️ 2023<br/>Senior SE<br/>LTIMindtree"]
+    C --> D["🎓 2023–2026<br/>M.Sc. CS<br/>Paderborn University"]
+    D --> E["🔎 2024–today<br/>Research Assistant<br/>Paderborn University"]
+    E --> F["🤖 2024–today<br/>AI Engineer<br/>Fraunhofer IAO"]
+```
+
+| When | Where | What I did | Stack I added |
+|---|---|---|---|
+| **2020 – 2023** | **Cognizant** · Software Engineer, Frontend | Production React apps for Nike: features, code reviews, API integration, testing and support. A high-volume inventory management UI with multi-step validation and SAP integration | <img src="https://skillicons.dev/icons?i=react,ts,js,materialui" alt="React, TypeScript, JavaScript, Material UI" height="32"/> |
+| **2023** | **LTIMindtree** · Senior Software Engineer | Migrated a legacy telecom customer portal to a component-based React/Redux architecture. About 80× faster rendering of a core flow and about 50% shorter load time | <img src="https://skillicons.dev/icons?i=react,redux,ts,js" alt="React, Redux, TypeScript, JavaScript" height="32"/> |
+| **2024 – today** | **Paderborn University** · Research Assistant, ML & Optimisation group | A university-wide knowledge graph of publications, real-time disinformation detection on Twitter and Bluesky, synthetic tweet datasets from multiple LLMs, and a DeepL glossary platform with CI/CD | <img src="https://skillicons.dev/icons?i=py,elasticsearch,nodejs,react,docker" alt="Python, Elasticsearch, Node.js, React, Docker" height="32"/> + LLMs, SPARQL/RDF, Hugging Face |
+| **2024 – 2025** | **Paderborn University & OPTANO** · GenUI | An open-source RAG assistant for an optimisation platform's docs, plus an AI Excel-automation module | <img src="https://skillicons.dev/icons?i=py,react" alt="Python, React" height="32"/> + RAG |
+| **2024 – today** | **Fraunhofer IAO** · AI Engineer | A supplier cybersecurity risk platform with multi-agent LangGraph workflows (about 60% less manual effort), and insider-threat signal extraction for AeroKI with human-in-the-loop review | <img src="https://skillicons.dev/icons?i=py,fastapi,react,ts,kubernetes,docker" alt="Python, FastAPI, React, TypeScript, Kubernetes, Docker" height="32"/> + LangGraph, MCP, Pydantic |
+| **2026 – today** | **Personal project** · Kubernetes incident assistant | An agent that troubleshoots Kubernetes incidents from the official docs and historical GitHub issues, with conversation memory | <img src="https://skillicons.dev/icons?i=py,fastapi,react,docker,kubernetes" alt="Python, FastAPI, React, Docker, Kubernetes" height="32"/> + LangGraph, GraphRAG, Neo4j |
+
+### 🧰 Toolbox
+
+| Layer | Tools |
+|---|---|
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,redux,tailwind,materialui,html,css" alt="React, Next.js, TypeScript, JavaScript, Redux, Tailwind CSS, Material UI, HTML, CSS" height="36"/> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,graphql,spring" alt="Python, FastAPI, Node.js, GraphQL, Spring Boot" height="36"/> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/> <img src="https://img.shields.io/badge/REST%20%26%20Webhooks-374151?style=flat-square" alt="REST and webhooks"/> |
+| **Data & graphs** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,elasticsearch,sklearn" alt="PostgreSQL, MongoDB, Elasticsearch, scikit-learn" height="36"/> <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j"/> <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square" alt="Pinecone"/> <img src="https://img.shields.io/badge/SPARQL%20%2F%20RDF-0C479D?style=flat-square" alt="SPARQL and RDF"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/> |
+| **AI / LLM** | <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/MCP%20servers-000000?style=flat-square&logo=anthropic&logoColor=white" alt="MCP servers"/> <img src="https://img.shields.io/badge/RAG%20%C2%B7%20GraphRAG-2563EB?style=flat-square" alt="RAG and GraphRAG"/> <img src="https://img.shields.io/badge/Multi--agent%20orchestration-7C3AED?style=flat-square" alt="Multi-agent orchestration"/> <img src="https://img.shields.io/badge/LLM%20evaluation-059669?style=flat-square" alt="LLM evaluation"/> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/> <img src="https://img.shields.io/badge/OpenRouter-6366F1?style=flat-square" alt="OpenRouter"/> |
+| **Infrastructure** | <img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,githubactions,linux,nginx" alt="Docker, Kubernetes, Google Cloud, GitHub Actions, Linux, Nginx" height="36"/> |
+| **AI & automation tools** | <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"/> <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex"/> <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square" alt="Cursor"/> <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright"/> |
+
+### 🧠 How I build agents
 
 ```mermaid
 flowchart LR
@@ -49,18 +88,7 @@ flowchart LR
     H --> A
 ```
 
-### Impact so far
-
-<table>
-  <tr>
-    <td align="center" width="25%"><h2>~60%</h2><sub>less time and manual effort in supplier risk assessments, with a multi-agent LangGraph workflow</sub></td>
-    <td align="center" width="25%"><h2>94% / 90%</h2><sub>recall at precision for insider-threat signal extraction in the government-funded AeroKI project</sub></td>
-    <td align="center" width="25%"><h2>93.44%</h2><sub>micro-average score on 200 stratified samples in my master's thesis on agentic supplier risk evaluation</sub></td>
-    <td align="center" width="25%"><h2>~80×</h2><sub>faster rendering of a core UI flow in a telecom customer portal, with ~50% shorter load time</sub></td>
-  </tr>
-</table>
-
-### Featured work
+### 📌 Featured work
 
 | | Project | What it does |
 |:-:|---|---|
@@ -69,37 +97,7 @@ flowchart LR
 | 🔭 | **[artificial-tweet-analysis-with-binoculars](https://github.com/SoumitriM/artificial-tweet-analysis-with-binoculars)** | Analysis of AI-generated tweets with the [Binoculars](https://arxiv.org/abs/2401.12070) zero-shot detector (original method by Hans et al.) |
 | 📚 | **[glossary-app-frontend](https://github.com/SoumitriM/glossary-app-frontend)** · **[backend](https://github.com/SoumitriM/glossary-app-backend)** | A university-wide English–German terminology platform used with DeepL, with automated tests, CI/CD and production deployment |
 
-<details>
-<summary><b>Also at work</b> (not public)</summary>
-<br/>
-
-- **Supplier cybersecurity risk platform** (Fraunhofer IAO). Specialised agents for web search, document discovery and evidence extraction, combining security, compliance and OSINT data into automated vendor risk assessments.
-- **Insider-threat signal extraction** (AeroKI). A two-stage LLM system with deterministic severity scoring, confidence gating and human-in-the-loop review.
-- **Research knowledge graph** (Paderborn University). Extracting and linking metadata for a university-wide graph of academic publications.
-- **Disinformation detection** (Paderborn University). A real-time pipeline over Twitter and Bluesky streams, plus synthetic tweet datasets generated with multiple LLMs to train bot-tweet classifiers.
-- **GenUI** (Paderborn University & OPTANO). An open-source RAG assistant that answers questions from an optimisation platform's technical documentation.
-
-</details>
-
-### Toolbox
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,fastapi,nodejs,react,nextjs,tailwind,materialui&perline=9" alt="Python, TypeScript, JavaScript, FastAPI, Node.js, React, Next.js, Tailwind CSS, Material UI"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,elasticsearch,graphql,docker,kubernetes,gcp,githubactions,linux&perline=9" alt="PostgreSQL, MongoDB, Elasticsearch, GraphQL, Docker, Kubernetes, Google Cloud, GitHub Actions, Linux"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP"/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j"/>
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic"/>
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"/>
-</p>
-
-### Contribution graph, eaten
+### 🐍 Contribution graph, eaten
 
 <p align="center">
   <picture>
