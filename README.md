@@ -125,7 +125,7 @@ flowchart TD
     class L,S,D,O,C value
 ```
 
-👉 See all of this in practice in my **[Kubernetes incident assistant](https://github.com/SoumitriM/troubleshooting-kubernetes-issues-agent)**.
+👉 **[Click here to see my Kubernetes project](https://github.com/SoumitriM/troubleshooting-kubernetes-issues-agent/blob/main/docs/KubeSage-project-overview.pdf)** <sub>(slides · [code](https://github.com/SoumitriM/troubleshooting-kubernetes-issues-agent))</sub>
 
 ### 📌 Featured work
 
