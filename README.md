@@ -12,23 +12,24 @@
 
 ---
 
-### 🧭 From pixels to agents
+### 👋 About me
 
-I started as a **frontend engineer**: production React and TypeScript apps for Nike at
-Cognizant, then a legacy telecom portal rebuilt in React and Redux at LTIMindtree. My
-master's in Germany pulled me into **Python, search and knowledge graphs**, and from there
-into **LLMs and agentic systems**, which I now build at Fraunhofer IAO.
+I'm a confident developer who is always eager to learn the next thing. Give me a
+stubborn bug or an unsolved puzzle and I'll happily spend the night on it until it
+clicks. When it comes to development I'm a **jack of all trades**: I've shipped React
+frontends, FastAPI and Node.js backends, search and knowledge-graph pipelines, and
+Docker and Kubernetes deployments. I'm at home wherever the problem is in the stack.
 
-Each stage added a layer instead of replacing one. Today I can take a feature all the way
-from the **React component** through the **FastAPI service**, **graph and vector
-retrieval** and the **LangGraph agent and its evaluation** to the **Docker and Kubernetes
-deployment**. I'm comfortable wherever the problem happens to be in the stack.
+My current obsession is **AI agents**: systems that reason, call tools, check their own
+work and know when to hand over to a human.
 
 ```python
 class Soumitri(Agent):
     role       = "AI Engineer @ Fraunhofer IAO · Research Assistant @ Paderborn University"
     education  = "M.Sc. Computer Science, Paderborn University"
+    traits     = ["confident", "eager to learn", "will lose sleep over a good puzzle"]
     layers     = ["frontend", "backend", "data & graphs", "LLM agents", "infrastructure"]
+    obsession  = "AI agents"
     principles = {
         "LLM output": "validated before anyone sees it",
         "scores and severity": "computed in code, not guessed by the model",
@@ -36,6 +37,28 @@ class Soumitri(Agent):
     }
     languages  = {"English": "C1", "German": "B1, improving"}
 ```
+
+### 💼 What I do now
+
+**AI Engineer (Research Assistant) · Fraunhofer IAO** <sub>· since 10/2024 · Stuttgart / Remote</sub><br/>
+I build a production-ready AI platform that assesses suppliers' cybersecurity risk by
+combining public security, compliance and OSINT data into automated vendor
+assessments. I designed its multi-agent LangGraph workflow, in which specialised
+agents handle web search, document discovery and evidence extraction through tool
+calling and validated structured outputs. For the government-funded AeroKI project I
+built a two-stage LLM system that extracts insider-threat risk signals, with severity
+scored in code, confidence gating and human-in-the-loop review. I also built a
+workflow that analyses cyberattack incidents, reconstructs the likely attack chain and
+identifies attack patterns, to help prevent similar attacks.
+
+**Research Assistant · Machine Learning & Optimisation Group, Paderborn University** <sub>· since 02/2024 · Paderborn</sub><br/>
+I'm building a university-wide knowledge graph of academic publications, extracting
+and linking their metadata so researchers can find relevant work more easily. I built
+a real-time pipeline that detects disinformation campaigns in Twitter and Bluesky
+streams, and generated synthetic tweet datasets with several LLMs to train
+classifiers that spot AI-generated bot tweets. I also built and deployed the
+university's English–German glossary platform for DeepL, including backend
+processing, automated tests, CI/CD and production deployment.
 
 ### 🛤️ My roadmap
 
@@ -50,12 +73,12 @@ class Soumitri(Agent):
   <tr>
     <td align="center" width="130"><img src="https://img.shields.io/badge/2024%20%E2%80%93%20today-2F6FE8?style=for-the-badge" alt="2024 – today"/></td>
     <td align="center" width="270"><img src="assets/roadmap/2024-fraunhofer.svg" width="250" alt="Animated stick figure working on a laptop: AI Engineer (Research Assistant)"/></td>
-    <td><b>AI Engineer (Research Assistant)</b><br/><sub>Fraunhofer IAO · Stuttgart / Remote</sub><br/><br/>Building a supplier cybersecurity risk platform with multi-agent LangGraph workflows, and a two-stage LLM system that extracts insider-threat risk signals for the government-funded AeroKI project, with human-in-the-loop review.<br/><sub><b>Worked with:</b> Python · LangGraph · FastAPI · Pydantic · MCP · multi-LLM (OpenRouter) · React · TypeScript · Kubernetes · Docker</sub></td>
+    <td><b>AI Engineer (Research Assistant)</b><br/><sub>Fraunhofer IAO · Stuttgart / Remote</sub><br/><br/>Multi-agent systems for supplier cybersecurity risk and insider-threat detection (details above).<br/><sub><b>Worked with:</b> Python · LangGraph · FastAPI · Pydantic · MCP · multi-LLM (OpenRouter) · React · TypeScript · Kubernetes · Docker</sub></td>
   </tr>
   <tr>
     <td align="center" width="130"><img src="https://img.shields.io/badge/2024%20%E2%80%93%20today-3B82F6?style=for-the-badge" alt="2024 – today"/></td>
     <td align="center" width="270"><img src="assets/roadmap/2024-paderborn-research.svg" width="250" alt="Animated stick figure working on a laptop: Research Assistant"/></td>
-    <td><b>Research Assistant</b><br/><sub>Machine Learning & Optimisation Group, Paderborn University</sub><br/><br/>Building a university-wide knowledge graph of academic publications and a real-time pipeline that detects disinformation campaigns on Twitter and Bluesky. Built and deployed a DeepL glossary platform, and the GenUI RAG assistant with OPTANO.<br/><sub><b>Worked with:</b> Python · LLMs (Gemini, Llama, OpenAI, DeepSeek, Qwen) · Elasticsearch · SPARQL / RDF · Hugging Face · scikit-learn · React · TypeScript · Node.js · Docker</sub></td>
+    <td><b>Research Assistant</b><br/><sub>Machine Learning & Optimisation Group, Paderborn University</sub><br/><br/>Knowledge graphs, disinformation detection and a DeepL glossary platform (details above), plus the GenUI RAG assistant with OPTANO.<br/><sub><b>Worked with:</b> Python · LLMs (Gemini, Llama, OpenAI, DeepSeek, Qwen) · Elasticsearch · SPARQL / RDF · Hugging Face · scikit-learn · React · TypeScript · Node.js · Docker</sub></td>
   </tr>
   <tr>
     <td align="center" width="130"><img src="https://img.shields.io/badge/2023%20%E2%80%93%202026-60A5FA?style=for-the-badge" alt="2023 – 2026"/></td>
